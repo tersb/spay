@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="theme-color" content="#071A0C" />
+  <title>Терминал Pay — новая эра оплаты</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+
+  <div class="bg-orb orb-1"></div>
+  <div class="bg-orb orb-2"></div>
+  <div class="bg-orb orb-3"></div>
+
+  <header class="topbar">
+    <div class="logo">
+      <span class="logo-mark">
+        <svg viewBox="0 0 24 24" width="22" height="22" fill="none" aria-hidden="true">
+          <circle cx="12" cy="12" r="11" stroke="#21E06B" stroke-width="2"/>
+          <path d="M7 12.5l3.2 3.2L17 9" stroke="#21E06B" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </span>
+      <span class="logo-text">Pay</span>
+    </div>
+    <span class="beta-badge">Beta</span>
+  </header>
+
+  <main class="hero">
+    <div class="hero-inner">
+      <span class="pill reveal" data-delay="0">Ограниченный бета-доступ</span>
+      <h1 class="reveal" data-delay="120">Терминал Pay —<br>новая эра оплаты</h1>
+      <p class="lead reveal" data-delay="240">
+        Это не готовый платёжный сервис, а открытый терминал, который можно
+        поднять у себя и протестировать под свои задачи. Оплата улыбкой,
+        оплата по QR, ввод суммы — всё работает локально, без реальных денег
+        и без чужих данных. Альтернатива терминалу Сбер в формате песочницы.
+      </p>
+
+      <div class="cta reveal" data-delay="360">
+        <a href="#features" class="btn btn-primary">Что внутри</a>
+      </div>
+
+      <div class="meta reveal" data-delay="480">
+        <span>Открытый код</span>
+        <span class="dot"></span>
+        <span>Локальный запуск</span>
+        <span class="dot"></span>
+        <span>Без демо-данных</span>
+      </div>
+    </div>
+  </main>
+
+  <section class="features" id="features">
+    <h2 class="reveal">Что можно протестировать</h2>
+    <div class="grid">
+      <div class="card reveal" data-delay="0">
+        <div class="icon">😊</div>
+        <h3>Оплата улыбкой</h3>
+        <p>Распознавание лица через камеру устройства — подключай, тестируй, меняй пороги детекции под себя.</p>
+      </div>
+      <div class="card reveal" data-delay="100">
+        <div class="icon">📱</div>
+        <h3>Оплата по QR</h3>
+        <p>Свежий QR на каждую операцию. Сканируй с телефона, синхронизируй терминал и страницу оплаты — всё локально.</p>
+      </div>
+      <div class="card reveal" data-delay="200">
+        <div class="icon">🎨</div>
+        <h3>Стиль Сбера</h3>
+        <p>Знакомый зелёный, знакомый ритм — удобно, когда нужно показать терминал в узнаваемом виде.</p>
+      </div>
+      <div class="card reveal" data-delay="300">
+        <div class="icon">🔒</div>
+        <h3>Приватность</h3>
+        <p>Всё крутится на твоей машине. Никаких внешних серверов, никаких реальных списаний, никаких чужих данных.</p>
+      </div>
+      <div class="card reveal" data-delay="400">
+        <div class="icon">⚡</div>
+        <h3>Сценарии оплаты</h3>
+        <p>Три этапа обработки, анимация улыбки в галочку, экран успеха — весь UX можно потрогать и переделать.</p>
+      </div>
+      <div class="card reveal" data-delay="500">
+        <div class="icon">🛠</div>
+        <h3>Открытый код</h3>
+        <p>Форкай, дописывай свои экраны и способы оплаты. Терминал — каркас, ты — автор своей версии.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="status reveal" data-delay="0">
+    <h2>Ограниченный бета-доступ</h2>
+    <p>
+      Терминал пока в бете. Команда повышает производительность, устраняет баги и недостатки.
+      Стабильный релиз выйдет позже — а пока можно тестировать текущую сборку у себя.
+    </p>
+    <div class="progress">
+      <div class="progress-bar"></div>
+    </div>
+    <div class="progress-labels">
+      <span>Производительность</span>
+      <span>Баги</span>
+      <span>Релиз</span>
+    </div>
+  </section>
+
+  <footer class="footer reveal" data-delay="0">
+    <p>© ПАО «ГИТ-ЭКВАЙРИНГ». Работаем с 2025 года.</p>
+  </footer>
+
+  <script src="./script.js"></script>
+</body>
+</html>
